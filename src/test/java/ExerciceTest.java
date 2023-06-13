@@ -17,5 +17,9 @@ public class ExerciceTest {
         // Chaine donnée en exemple
         assertEquals(List.of("fait", "Il", "aujourd", "aout", "beau", "hui", "comme", "en"), Exercice.solution("Il fait beau aujourd'hui comme en aout",List.of('f', 'I', 'z', 'u', 'k', 'a', 'b', 'o')));
         // Ajoutez vos test ici...
+        // Chaine avec caracteres speciaux
+        assertEquals(List.of("ex", "de", "txt", "a", "cls"), Exercice.solution("ex@ de txt! a cls", List.of('e', 'x', 'd', 't', 'a', 'c', 'l', 's')));
+        // Chaine avec du vide entre les mots
+        assertEquals(List.of("hello", "world"), Exercice.solution("hello  world", List.of('h', 'w')));
     }
 }
