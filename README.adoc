@@ -45,13 +45,13 @@ Merci à mailto:saadialbane@gmail.com:[Saadia Albane] pour l'idée du problème 
 
 === De la solution...
 
-* LAST NAME : DOE
-* First name : John
+* LAST NAME : Brefuel
+* First name : Mathis
 * TD group : 
 - [ ] 1
-- [x] 2
+- [ ] 2
 - [ ] 3
-- [ ] 4
+- [x] 4
 
 // == Objectives
 == Objectifs
@@ -200,14 +200,11 @@ Voici les pré-requis pour exécuter nos codes d'évaluation.
 === Reproductibilité
 
 - Pour reproduire nos analyses :
-. Installez X
-. Lancez Y
-. ...
+. Tout est détaillé dans le rapport 
 
 === Références
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+- link:https://app.codacy.com[Codacy]
 
 == Généralités, notation de la SAÉ et résultat du concours
 
